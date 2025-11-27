@@ -1,0 +1,34 @@
+
+
+
+    <div class="container">
+      <section id="stays" class="section">
+        <h2 class="section-title">Featured village stays</h2>
+        <p class="section-info">Handpicked homes offering the most authentic experiences</p>
+        <div class="section-content-flex">
+          <!-- card 1 -->
+    <% news.forEach(n => { %>
+
+          <div class="featured-stays-card">
+            <div class="featured-stays-card_img">
+              <img src="./img/hero-bg.webp" alt="" width="350" height="280">
+            </div>
+            <h3 class="featured-stays-card_title">
+              <%= n.title %>
+            </h3>
+            <div class="featured-stays-card_location">
+              <%= n.text %>
+            </div>
+            <ul class="featured-stays-card_amenities"></ul>
+            <div class="featured-stays-card_price"><b>$42</b><span>/night</span> 
+            </div>
+          </div>
+
+    <% }); %>
+
+
+        </div>
+      </section>
+    </div>
+
+    
