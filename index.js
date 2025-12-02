@@ -14,7 +14,7 @@ app.use(express.static("public"));
 const db = new Pool({
   host: "postgres.railway.internal",
   user: "postgres",
-  password: "hzWfJrFfwuKNOkZagxcKxJWZPlhDdxVr",   // change if needed
+  password: "VQZSIEQcsaURhpwEychHuXGZIGmuqDpK",   // change if needed
   database: "railway",
   port: 5432
 });
